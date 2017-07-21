@@ -1,0 +1,9 @@
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\bin\Debug\netcoreapp1.1\AspNetNote.deps.json
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\bin\Debug\netcoreapp1.1\AspNetNote.runtimeconfig.json
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\bin\Debug\netcoreapp1.1\AspNetNote.runtimeconfig.dev.json
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\bin\Debug\netcoreapp1.1\AspNetNote.dll
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\obj\Debug\netcoreapp1.1\AspNetNote.csprojResolveAssemblyReference.cache
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\obj\Debug\netcoreapp1.1\AspNetNote.AssemblyInfo.cs
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\bin\Debug\netcoreapp1.1\AspNetNote.pdb
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\obj\Debug\netcoreapp1.1\AspNetNote.dll
+c:\users\gil\documents\visual studio 2017\Projects\AspNetBoard\AspNetNote\obj\Debug\netcoreapp1.1\AspNetNote.pdb
