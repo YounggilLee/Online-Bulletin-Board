@@ -11,7 +11,11 @@
         {
             <tr>
                 <td>@note.NoteNo</td>
-                <td>@note.NoteTitle</td>
+
+                <td>
+                <a asp-controller="Note" asp-action="Detail" asp-route-noteNo="@note.NoteNo">@note.NoteTitle</a>
+                </td>
+
                 <td>@note.UserNo</td>
             </tr>
         }       
