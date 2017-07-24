@@ -13,7 +13,7 @@ namespace AspNetNote.Controllers
             return View();
         }
 
-        public IActionResult LoginSucess()
+        public IActionResult LoginSuccess()
         {
             return View();
         }

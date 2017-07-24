@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using AspNetNote.Models;
 using AspNetNote.DataContext;
+using AspNetNote.ViewModel;
+using Microsoft.AspNetCore.Http;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,7 +21,7 @@ namespace AspNetNote.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(User model)
+        public IActionResult Login(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -29,6 +31,7 @@ namespace AspNetNote.Controllers
                                 && u.UserPassword.Equals(model.UserPassword));
                     if(user != null)
                     {
+                        HttpContext.Session.SetInt32("USER_LOGIN_KEY",user.UserNo);
                         return RedirectToAction("LoginSuccess", "Home");                       
                     }
 
@@ -38,6 +41,13 @@ namespace AspNetNote.Controllers
                 ModelState.AddModelError(string.Empty, "User ID or Password is not correct");
             }
                 return View(model);
+        }
+
+        public IActionResult Logout()
+        {
+            //HttpContext.Session.Clear();  //Clear all session
+            HttpContext.Session.Remove("USER_LOGIN_KEY");
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: /<controller>/

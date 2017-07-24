@@ -1,0 +1,21 @@
+﻿<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Title</th>
+            <th>Writer</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var note in Model)
+        {
+            <tr>
+                <td>@note.NoteNo</td>
+                <td>@note.NoteTitle</td>
+                <td>@note.UserNo</td>
+            </tr>
+        }       
+    </tbody>
+</table>
+
+<a class="btn btn-warning" asp-controller="Note" asp-action="Add">Add Content</a>

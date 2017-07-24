@@ -29,6 +29,9 @@ namespace AspNetNote
         {
             // Add framework services.
             services.AddMvc();
+
+            // Add session services.
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +52,8 @@ namespace AspNetNote
 
             app.UseStaticFiles();
 
+            //Use the session service in application
+            app.UseSession();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
