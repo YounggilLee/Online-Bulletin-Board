@@ -18,6 +18,28 @@ namespace AspNetNote.Controllers
             return View();
         }
 
+        [HttpPost]
+        public IActionResult Login(User model)
+        {
+            if (ModelState.IsValid)
+            {
+                using (var db = new AspNetNoteContext())
+                {
+                    var user = db.Users.FirstOrDefault(u => u.UserId.Equals(model.UserId) 
+                                && u.UserPassword.Equals(model.UserPassword));
+                    if(user != null)
+                    {
+                        return RedirectToAction("LoginSuccess", "Home");                       
+                    }
+
+                 
+                }
+
+                ModelState.AddModelError(string.Empty, "User ID or Password is not correct");
+            }
+                return View(model);
+        }
+
         // GET: /<controller>/
         public IActionResult Register()
         {

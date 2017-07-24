@@ -10334,10 +10334,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\gil\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\AspNetNote.csproj",
+      "projectUniqueName": "C:\\Users\\GiL\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\AspNetNote.csproj",
       "projectName": "AspNetNote",
-      "projectPath": "c:\\users\\gil\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\AspNetNote.csproj",
-      "outputPath": "c:\\users\\gil\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\obj\\",
+      "projectPath": "C:\\Users\\GiL\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\AspNetNote.csproj",
+      "outputPath": "C:\\Users\\GiL\\documents\\visual studio 2017\\Projects\\AspNetBoard\\AspNetNote\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
