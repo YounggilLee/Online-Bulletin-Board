@@ -13,7 +13,7 @@
                 @Model.NoteTitle
             </div>
             <div class="panel-body">
-                @Model.NoteContents
+                @Html.Raw(@Model.NoteContents)                
             </div>
             <div class="panel-footer text-right">
                 <a class="btn btn-primary" asp-controller="Note" asp-action="Index">List</a>
