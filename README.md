@@ -10,9 +10,9 @@ The main programming language of the project would be C# which provides convenie
 
 # Technology and tools
 
-Entity Framwork: To build data base
-Bootstrap: To display pages properly
-Trrumbowyg: to implement a content input page effectively
+Entity Framwork: To build data base</br>
+Bootstrap: To display pages properly</br>
+Trrumbowyg: to implement a content input page effectively</br>
  
 
 # Captured Images for demonstration.
