@@ -7,7 +7,13 @@ The project is to develop an application that allows users post contents.
 The contents and user's images will be stored on Ms SQL or local database(Visual Studio).
 The purpose of the project is learning ASP.NET Core MVC6. 
 The main programming language of the project would be C# which provides convenience to develop multiple view pages.
-The application Implemented Trumbowyg to help user input data. Database is designed by code first using entity framework.
+
+# Technology and tools
+
+Entity Framwork: To build data base.
+Bootstrap: To display pages properly.
+Trrumbowyg: to implement a content input page effectively.
+ 
 
 # Captured Images for demonstration.
 
